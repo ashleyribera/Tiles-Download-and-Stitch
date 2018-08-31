@@ -5,7 +5,7 @@ using System.Net;
 using System.Drawing;
 using System.IO;
 
-namespace ConsoleApplication2
+namespace TileDLStitch
 {
     class Program
     {
