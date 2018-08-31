@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c544d1240aba4170a064024722f1a5c3" Name="Diagram1">
+        <EntityTypeShape EntityType="RoadsModel.AddressRanx" Width="1.5" PointX="7.5" PointY="108.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.AppErrorLog" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.AssocCommZA" Width="1.5" PointX="13.5" PointY="73.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.AssociatedRoad" Width="1.5" PointX="5.25" PointY="92.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.BondComment" Width="1.5" PointX="7.5" PointY="71" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.CommercialSite" Width="1.5" PointX="11.25" PointY="84.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.CommercialSitesAudit" Width="1.5" PointX="11.25" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.CSAlias" Width="1.5" PointX="13.5" PointY="99" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.CSAsBuilt" Width="1.5" PointX="13.5" PointY="102.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.CSComment" Width="1.5" PointX="13.5" PointY="106" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.CulDeSac" Width="1.5" PointX="5.25" PointY="99.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.EngSubComment" Width="1.5" PointX="8.25" PointY="105" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.EngSubmittal" Width="1.5" PointX="6" PointY="84.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUBOCDistrict" Width="1.5" PointX="9" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUBOCMember" Width="1.5" PointX="6.75" PointY="61.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUConsolTable" Width="1.5" PointX="0.75" PointY="82.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUConstInspector" Width="1.5" PointX="5.75" PointY="66.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUContractor" Width="1.5" PointX="3" PointY="68.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUContractorsAudit" Width="1.5" PointX="3" PointY="75.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUDeveloper" Width="1.5" PointX="3" PointY="83.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUDevelopersAudit" Width="1.5" PointX="3" PointY="91.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUEngFirm" Width="1.5" PointX="3.75" PointY="61.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LURefType" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LURoadDirection" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LURoadNameType" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUSWInspector" Width="1.5" PointX="9" PointY="56.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.LUTableList" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterBond" Width="1.5" PointX="5.25" PointY="74.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterBondsAudit" Width="1.5" PointX="11.25" PointY="90.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterRoad" Width="1.5" PointX="3" PointY="103" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterRoadsAudit" Width="1.5" PointX="3" PointY="114.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterSubAlias" Width="1.5" PointX="10.25" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterSubComment" Width="1.5" PointX="10.25" PointY="68.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterSubdiv" Width="1.5" PointX="8" PointY="74.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterSubdivAudit" Width="1.5" PointX="14" PointY="76.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MasterSubdivZA" Width="1.5" PointX="10.25" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.MiscValue" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.PlatAlias" Width="1.5" PointX="16.5" PointY="84.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.PlatComment" Width="1.5" PointX="16.5" PointY="87.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.Rating" Width="1.5" PointX="5.25" PointY="102.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.RespondingAgency" Width="1.5" PointX="11.25" PointY="100.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.Resurfacing" Width="1.5" PointX="8.25" PointY="87" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.RightOfWay" Width="1.5" PointX="3" PointY="134.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.RoadAlias" Width="1.5" PointX="14.25" PointY="95.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.RoadComment" Width="1.5" PointX="5.25" PointY="114.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.RoadDistrict" Width="1.5" PointX="5.25" PointY="107.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.SpeedLimit" Width="1.5" PointX="5.25" PointY="120.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.StorageRequest" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.Striping" Width="1.5" PointX="8.25" PointY="80.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.SubdivFee" Width="1.5" PointX="3" PointY="139.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.SubdivisionPlat" Width="1.5" PointX="14.25" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.SubdivisionPlatsAudit" Width="1.5" PointX="8.25" PointY="92.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.SubdivPermit" Width="1.5" PointX="3" PointY="143.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.SubDivZA" Width="1.5" PointX="12.5" PointY="65" IsExpanded="true" />
+        <EntityTypeShape EntityType="RoadsModel.sysdiagram" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="RoadsModel.FK_AddressRanges_On_AssocRoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_AssocCommZA_On_CommSiteID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_AssociatedRoads_On_MaintTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_AssociatedRoads_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_AssociatedRoads_On_SewerProviderID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_AssociatedRoads_On_SurfTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_AssociatedRoads_On_WaterSourceID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_BondComments_On_BondID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_AssocCommComments_On_CommSiteID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSites_On_BOCDistrictID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSites_On_ConstInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSites_On_DeveloperID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSites_On_MasterSubID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSites_On_SWInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CSAliases_On_CommSiteID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CSAsBuilts_On_CommSiteID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSitesAudit_On_BOCDistrictID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSitesAudit_On_ConstInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSitesAudit_On_DeveloperID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSitesAudit_On_MasterSubID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CommercialSitesAudit_On_SWInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_CulDeSacs_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_EngSubComments_On_EngSubmitID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_EngSubmittals_On_EngFirmID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_EngSubmittals_On_SubmittalTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_LUBOCDistricts_On_BOCMemberID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_RoadDistricts_On_BOCDistrictID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlats_On_BOCDistrictID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlatsAudit_On_BOCDistrictID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_LUContractors_On_ContStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_LUContractorsAudit_On_ContStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_LUDevelopers_On_DevStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_LUDevelopersAudit_On_DevStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBonds_On_BondDescID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBonds_On_BondStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBonds_On_BondTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBondsAudit_On_BondDescID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBondsAudit_On_BondStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBondsAudit_On_BondTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterRoads_On_RoadStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterRoadsAudit_On_RoadStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterSubdiv_On_SubStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterSubdivAudit_On_SubStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_RespondingAgency_On_AgencyID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Resurfacing_On_ResurfFundByID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Resurfacing_On_ResurfStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_RightOfWay_On_ROWTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_RoadAliases_On_AliasTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Striping_On_StripeMaterialID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Striping_On_StripeStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Striping_On_StripeTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivFees_On_FeeTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlats_On_MaintTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlats_On_PlanLocID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlats_On_PlatStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlatsAudit_On_MaintTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlatsAudit_On_PlanLocID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlatsAudit_On_PlatStatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivPermits_On_PmtTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBonds_On_ConstInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBondsAudit_On_ConstInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterSubdiv_On_ConstInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterSubdivAudit_On_ConstInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlats_On_ConstInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlatsAudit_On_ConstInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Resurfacing_On_ContractorID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Striping_On_ContractorID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBonds_On_DeveloperID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterBondsAudit_On_DeveloperID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlats_On_DeveloperID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlatsAudit_On_DeveloperID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlats_On_SWInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlatsAudit_On_SWInspID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Ratings_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_RespondingAgency_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Resurfacing_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_RoadAliases_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_RoadComments_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_RoadDistricts_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SpeedLimits_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_Striping_On_RoadID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterSubAliases_On_MasterSubID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterSubComments_On_MasterSubID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_MasterSubdivZA_On_MasterSubID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlats_On_MasterSubID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivisionPlatsAudit_On_MasterSubID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_SubdivZA_On_MasterSubdivZAID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_PlatAliases_On_MasterPlatID" ManuallyRouted="false" />
+        <AssociationConnector Association="RoadsModel.FK_PlatComments_On_MasterPlatID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
